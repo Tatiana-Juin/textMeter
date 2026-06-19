@@ -1,4 +1,4 @@
-# textMeter - compteur de mots et de caractères 
+# Comptamots - compteur de mots et de caractères 
 Un site simple et élégant permettant de compter le nombre de mots, de caractères et d'espaces dans un texte. 
 
 ## Fonctionnalités
