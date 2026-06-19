@@ -10,7 +10,8 @@ btnValider.addEventListener("click", () =>{
     let text = textarea.value.trim();
 
     // POUR RECUPERER TOUT LES MOT SANS ESPACE 
-    let nbWordWithoutSpace = text.match(/\S+/g).length;
+    let words = text.match(/\S+/g);
+    let nbWordWithoutSpace = words ? words.length : 0;
     nbWord.textContent=`${nbWordWithoutSpace } mot sans espace`;
 
     // POUR RECUPERER TOUS LES CARACTERE Y COMPRIS LES ESPACE
@@ -19,7 +20,6 @@ btnValider.addEventListener("click", () =>{
 
     // POUR COMPTER LE NB D'ESPACE 
     let space = text.match(/ /g);
-    
     nbSpace.textContent=`${space ? space.length : 0 } espace `;
 
 })

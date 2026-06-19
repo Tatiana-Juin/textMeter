@@ -69,10 +69,13 @@ textarea{
     
     align-self: flex-start;
     background-color: green;
+    
+    
    
 }
 .btn-reset{
     background-color: red;
+    
 }
 
 .answer{
@@ -88,11 +91,13 @@ textarea{
     padding: 15px;
     border-radius: 15px;
     font-weight: bold;
+    
 }
 
-.box1 { background-color: purple; } 
-.box2 { background-color: #3498db; } 
-.box3 { background-color: pink; color: black; } 
+.box1 { background-color: #edced3;  color: black; } 
+.box2 { background-color: #eed5d9; color: black; } 
+.box3 { background-color: #f5e8ea; color: black; } 
+
 
 /* RESPONSIVE POUR TABLETTE  */
 @media screen and (max-width:1024px){
